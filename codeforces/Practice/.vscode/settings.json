@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "exception": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp"
     }
 }
