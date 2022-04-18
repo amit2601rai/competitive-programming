@@ -43,7 +43,7 @@ void dfs(int x, int y, int &sz) {
             dfs(x, y+1, ++sz);
         }
     }
-    // Nort
+    // North
     if (!(graph[x][y] & 8)) {
         if (x-1 >= 0 && !vis[x-1][y]) {
             dfs(x-1, y, ++sz);
